@@ -1,0 +1,14 @@
+=== HOSTNAME ===
+cc-m03-2583207073011
+=== CPU ===
+2
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       358Mi       781Mi       1.0Mi       991Mi       1.6Gi
+Swap:          1.0Gi          0B       1.0Gi
+=== SWAP ===
+NAME      TYPE  SIZE USED PRIO
+/swapfile file 1024M   0B   -2
+=== DISK ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        19G  3.7G   15G  20% /
