@@ -26,3 +26,9 @@ login `cloudstudent` dengan key berhasil.
 ## Catatan Perbedaan Spesifikasi
 VPS memiliki 2 vCPU / 2 GB RAM. Konfigurasi Gunicorn tetap mengikuti modul
 (1 worker, 2 thread) untuk menjaga headroom dan konsistensi dengan ADR-0001.
+
+## Recovery Check
+VPS dimatikan manual lewat dashboard IDCloudHost lalu dinyalakan kembali.
+Setelah boot, tanpa intervensi manual: service cc-m03 dan Caddy active,
+UFW active, swap aktif, backend tetap listen di 127.0.0.1:8000.
+Bukti: reboot-check.txt

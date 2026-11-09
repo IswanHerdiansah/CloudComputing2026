@@ -1,0 +1,13 @@
+=== Recovery check setelah VPS dimatikan manual dan dinyalakan lagi ===
+Mon Nov  9 21:12:41 WIB 2026
+ 21:12:41 up 7 min,  1 user,  load average: 0.00, 0.06, 0.05
+NAME      TYPE  SIZE USED PRIO
+/swapfile file 1024M   0B   -2
+Status: active
+
+To                         Action      From
+active
+active
+LISTEN 0      2048       127.0.0.1:8000      0.0.0.0:*    users:(("gunicorn",pid=782,fd=3),("gunicorn",pid=666,fd=3))
+LISTEN 0      4096         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=871,fd=3),("systemd",pid=1,fd=93))      
+LISTEN 0      4096         0.0.0.0:80        0.0.0.0:*    users:(("caddy",pid=665,fd=6))                             
